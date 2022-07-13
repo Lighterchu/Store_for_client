@@ -4,6 +4,7 @@ import { Navbar,Nav,Container} from 'react-bootstrap'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LoginIcon from '@mui/icons-material/Login';
+import Box from '@mui/material/Box';
 // import { BrowserRouter as Router, Route, Routes,Link} from "react-router-dom";
 
 // import {About} from '../pages/About'
@@ -18,8 +19,9 @@ export const NavgationBar = () =>  {
 
   <div style={{backgroundColor: "white", width: "100%", paddingLeft: "20%"}}>
      <Nav variant="pills" activeKey="" onSelect={handleSelect}>
+    
       <Nav.Item>
-        <Nav.Link eventKey="1" href="#/home">
+      <Nav.Link eventKey="1" href="#/home">
           HOME
         </Nav.Link>
       </Nav.Item>
