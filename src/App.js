@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div className="App-info" style={{color: "white"}}>
-      <Typography>This is a ProtoType</Typography>
+      <Typography>Live Server</Typography>
       </div>
       <NavgationBar/>
         <div className="App-info" style={{color: "white"}}>
