@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 export const Cards = () =>  {
     return (
-    <Card sx={{ maxWidth: 345, marginBottom: '10px'}}>
+    <Card sx={{ maxWidth: 345, marginBottom: '10px', marginLeft: '60px'}}>
       <CardMedia
         component="img"
         alt="green iguana"

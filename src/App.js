@@ -61,10 +61,7 @@ function App({client}) {
       />
         
          <Typography>
-          Photographer | Explorer
-          Based in Warrnambool, Victoria, Josh has the one of the most spectacular coastlines on his door step - the Great Ocean Road. 
-          With his love for travel and capturing the beauty around him, Josh has a diverse range of landscape photographs guaranteed to catch the eye.
-          Other specialty services include - Real Estate and Wedding photography.
+          please fill me in, I am you're description
           </Typography> 
           
           <Button variant="contained" color="success">
