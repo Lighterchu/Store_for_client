@@ -1,7 +1,7 @@
 {
   "name": "store",
   "version": "0.1.0",
-  "homepage": "https://lighterchu.github.io/Store_for_client/",
+  "homepage": "https://matt-bradfield-photography.vercel.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
