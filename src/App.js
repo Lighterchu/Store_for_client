@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div className="App-info" style={{color: "white"}}>
-      <Typography>Live Server</Typography>
+      <Typography>Live Server v1 </Typography>
       </div>
       <NavgationBar/>
         <div className="App-info" style={{color: "white"}}>
