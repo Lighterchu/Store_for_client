@@ -36,7 +36,7 @@ function App({client}) {
   // const { data, isLoading, error } = useGQLQuery('shop', GET_SHOPNAME)
   // a9a9fbcc0c214d3d0c9913bb10340e24
   // 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
-  console.log(getSubscriptionUrl("a9a9fbcc0c214d3d0c9913bb10340e24"))
+  // console.log(getSubscriptionUrl("a9a9fbcc0c214d3d0c9913bb10340e24"))
 
   
   
@@ -44,7 +44,7 @@ function App({client}) {
     <div className="App">
       <header className="App-header">
       <div className="App-info" style={{color: "white"}}>
-      <Typography>This is a ProtoType</Typography>
+      <Typography>This is a live site</Typography>
       </div>
       <NavgationBar/>
         <div className="App-info" style={{color: "white"}}>
