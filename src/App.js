@@ -80,7 +80,7 @@ function App({client}) {
           {/* <Stack spacing={2}>
             
           </Stack> */}
-          <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
+          <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)'}}>
             <Cards/>
             <Cards/>
             <Cards/>
