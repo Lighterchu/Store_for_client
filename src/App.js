@@ -4,21 +4,41 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import {Button} from 'react-bootstrap'
 import {NavgationBar} from './components/Navbar';
 import {BottomLinks} from './components/BottomLinks';
+import {Cards} from './components/Cards';
 import Typography from '@mui/joy/Typography';
 import Button from '@mui/material/Button';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Box from '@mui/material/Box';
-import Divider from '@mui/material/Divider';
+import Divider from '@mui/material/Divider'
+
+
+// import gql from 'graphql-tag';
+import { getSubscriptionUrl } from './useGraphQL';
+// import Divider from '@mui/material/Divider';
+// import Stack from '@mui/material/Slack';
+
+
+// const GET_SHOPNAME = gql`
+//   query {
+//     shop {
+//       name
+//     }
+//   }
+// `;
 
 
 
 
 
+function App({client}) {
+ 
+  // const { data, isLoading, error } = useGQLQuery('shop', GET_SHOPNAME)
+  // a9a9fbcc0c214d3d0c9913bb10340e24
+  // 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
+  console.log(getSubscriptionUrl("a9a9fbcc0c214d3d0c9913bb10340e24"))
 
-
-
-function App() {
+  
   
   return (
     <div className="App">
@@ -28,18 +48,6 @@ function App() {
       </div>
       <NavgationBar/>
         <div className="App-info" style={{color: "white"}}>
-          {/* <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
-            {itemData.map((item) => (
-              <ImageListItem key={item.img}>
-                <img
-                  src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                  srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                  alt={item.title}
-                  loading="lazy"
-                />
-              </ImageListItem>
-            ))}
-        </ImageList> */}
         <Box
         component="img"
         sx={{
@@ -69,6 +77,17 @@ function App() {
           <br/>
           <p></p>
           
+          {/* <Stack spacing={2}>
+            
+          </Stack> */}
+          <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+          </Box>
         </div>
       </header>
       
