@@ -12,7 +12,7 @@
 //   return ctx.redirect(confirmationUrl)
 // };
 
-import { useQuery } from 'react-query';
+// import { useQuery } from 'react-query';
 import { GraphQLClient, request } from 'graphql-request';
 
 // export const useGQLQuery = (key, query, variables, config = {}) => {
