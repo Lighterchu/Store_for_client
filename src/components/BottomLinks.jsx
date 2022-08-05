@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 ;
@@ -21,9 +21,9 @@ export const BottomLinks = () =>  {
                 setValue(newValue);
             }}
             >
-            <BottomNavigationAction label="Social" icon={<RestoreIcon />} sx={{ ml: 120, }}  />
-            <BottomNavigationAction label="Social" icon={<FavoriteIcon />}/>
-            <BottomNavigationAction label="Social" icon={<FavoriteIcon />}/>
+            <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} href={"https://www.facebook.com/MattBradfieldPhotographyAustralia"} sx={{ ml: 120, }}  />
+            {/* <BottomNavigationAction label="Social" icon={<RestoreIcon />}/>
+            <BottomNavigationAction label="Social" icon={<RestoreIcon />}/> */}
             
             
             </BottomNavigation>
